@@ -1,0 +1,156 @@
+@charset "UTF-8";
+.head-products .background{
+	background-image:url(../img/products/bg-eyecatch.jpg);
+}
+.products-list{
+	width:calc(100% - 30px);
+	margin:35px auto 40px;
+}
+.products-list-item{
+	display:flex;
+	display:-webkit-flex;
+	justify-content:center;
+	-webkit-justify-content:center;
+	align-items:flex-end;
+	-webkit-align-items:flex-end;
+	margin-bottom:45px;
+	flex-wrap:wrap;
+	-webkit-flex-wrap:wrap;
+}
+.products-list-item:nth-of-type(even){
+	flex-direction: row-reverse;
+	-webkit-flex-direction: row-reverse;
+}
+.products-list-item__head {
+	width:100%;
+	font-size:1.8rem;
+	margin-bottom:30px;
+	text-align:center;
+}
+.products-list-item__cont{
+}
+.products-list-item__desc{
+	font-size: 1.4rem;
+	line-height: 2;
+	display:inline;
+}
+.products-list-item__desc:before{
+	content:"";
+	width:150px;
+	height:150px;
+	display:inline-block;
+	float:right;
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-position:center;
+	margin-left:15px;
+	margin-bottom:15px;
+}
+.item-agesen .products-list-item__desc:before{
+	background-image:url(../img/products/obj-pic-agesen.jpg);
+}
+.item-yaki .products-list-item__desc:before{
+	background-image:url(../img/products/obj-pic-yaki.jpg);
+}
+.item-komesen .products-list-item__desc:before{
+	background-image:url(../img/products/obj-pic-komesen.jpg);
+}
+.products-list-item:nth-of-type(even) .products-list-item__desc{
+	margin-left:20px;
+}
+.products-list-item__pic{
+	display:none;
+}
+.products-list-item__btn{
+	color:#fff;
+	border-radius:26px;
+	height:36px;
+	font-size:1.2rem;
+	margin:10px 0px 10px;
+	text-decoration:none;
+	display:flex;
+	display:-webkit-flex;
+	justify-content:center;
+	-webkit-justify-content:center;
+	align-items:center;
+	-webkit-align-items:center;
+	background: -webkit-linear-gradient(left, rgba(241,151,74,1) 0%,rgba(234,103,51,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, rgba(241,151,74,1) 0%,rgba(234,103,51,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}	
+.enjoy-home{
+	text-align:center;
+	margin-bottom:70px;
+	width:100%;
+}
+.enjoy-home__item img{
+	width:100%;
+}
+.special-cont{
+	text-align:center;
+	margin-bottom:70px;
+}
+.special-cont__head{
+	width:100%;
+    font-size: 1.8rem;
+	margin-bottom: 30px;
+	text-align:center;
+}
+.special-cont__item{
+	display:block;
+	margin-bottom:35px;
+}
+.special-cont__item img{
+	width:100%;
+}
+.shop-info{
+	width:calc(100% - 30px);
+	margin:35px auto 40px;
+}
+.shop-info__head{
+	width:100%;
+    font-size: 1.8rem;
+	margin-bottom: 30px;
+	text-align:center;
+}
+.shop-info__desc {
+    font-size: 1.4rem;
+	line-height:2;
+}
+.shop-info__desc br{
+	display:none;
+}
+.shop-info__pic{
+	margin-top:15px;
+	display:flex;
+	display:-webkit-flex;
+	justify-content:space-between;
+	-webkit-justify-content:space-between;
+}
+.shop-info__pic .shop-info__pic-item{
+	width:49%;
+}
+.shop-add{
+	margin-top:40px;
+}
+.shop-add__head{
+	font-size:1.6rem;
+	margin-bottom:10px;
+}
+.shop-add__desc{
+	line-height:2;
+	font-size:1.4rem;
+}
+.head-txt-strong{
+	position: relative;
+}
+.head-txt-strong:after{
+	width:100%;
+	content:"";
+	position: absolute;
+	bottom:-8px;
+	left:0;
+	border-bottom:solid 1px #eb6834;
+}
+.txt-strong-color{
+	color:#ff0000;
+}

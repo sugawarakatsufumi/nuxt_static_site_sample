@@ -1,0 +1,133 @@
+@charset "UTF-8";
+.head-inq .background{
+	background-image:url(../img/pb-oem/bg-eyecatch.jpg);
+}
+.head-txt-strong{
+	position: relative;
+}
+.head-txt-strong:after{
+	width:100%;
+	content:"";
+	position: absolute;
+	bottom:-8px;
+	left:0;
+	border-bottom:solid 1px #eb6834;
+}
+.inq-section{
+	width:calc(100% - 30px);
+	margin:35px auto 35px;
+}
+.inq-tel-head, .inq-form-head{
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #eb6834;
+  text-align:center;
+}
+.inq-tel-link{
+  width:100%;
+}
+.inq-tel-link th{
+  border-top: solid 1px #cbcbcb;
+  border-bottom: solid 1px #cbcbcb;
+  border-right: solid 1px #cbcbcb;
+  background: #f7f7f7;
+  padding: 20px 0px;
+  width: 30%;
+  vertical-align: middle;
+  font-size:1.4rem;
+}
+.tel-number{
+  display:none;
+}
+.inq-tel-link td{
+  border-top: solid 1px #cbcbcb;
+  border-bottom: solid 1px #cbcbcb;
+  padding: 40px 0px;
+  width: 30%;
+  vertical-align: middle;
+  font-size:1.4rem;
+  text-align:center;
+}
+.inq-tel-link td a{
+  text-decoration: none;
+  background: -webkit-linear-gradient(top, #ff9443 0%, #ff6e00 100%);
+  background: linear-gradient(to bottom, #ff9443 0%, #ff6e00 100%);
+  color:#fff;
+  padding:20px;
+  border-radius:10px;
+}
+.inq-form{
+  margin-top:30px
+}
+.inq-form-detail table {
+  width: 100%;
+  display:block;
+}
+.inq-form-detail table tr{
+  display:block;
+}
+.inq-form-detail table th {
+  padding: 20px 0px 0px;
+  text-align:left;
+  font-size:1.6rem;
+  display:block;
+  
+}
+.inq-form-detail table th span {
+  color: #de2a13;
+}
+.inq-form-detail table td {
+  border-bottom: solid 1px #cbcbcb;
+  padding: 10px 0 20px;
+  line-height: 180%;
+  display:block;
+}
+.inq-form-detail table td input, .inq-form-detail table td textarea{
+  font-size:1.8rem;
+  border:solid 1px #b2b2b2;
+  width:98%;
+}
+.inq-form-detail table label.error {
+  color: #de2a13;
+}
+.inq-form-detail table input.error {
+  background: #FFE8E5;
+}
+
+.thankyoutext {
+  margin: 30px 0px 20px 0px;
+  font-size: 16px;
+  line-height: 180%;
+}
+
+.wrp_submit {
+  text-align: center;
+  margin: 25px 0px 0px 0px;
+}
+.wrp_submit input[type="submit"] {
+  padding: 10px 60px;
+  font-size: 1.8rem;
+  background: -webkit-linear-gradient(top, #ff9443 0%, #ff6e00 100%);
+  background: linear-gradient(to bottom, #ff9443 0%, #ff6e00 100%);
+  color: #fff;
+  border-style: none;
+  border-radius: 10px;
+}
+.wrp_submit input[type="reset"], .wrp_submit input[value="戻る"],.wrp_submit input[name="submitBack"] {
+  padding: 10px 60px;
+  font-size: 1.8rem;
+  background: #949494;
+  color: #fff;
+  margin: 0px 10px 0px 0px;
+  border-style: none;
+  border-radius: 4px;
+  -webkit-appearance:none;
+  appearance:none;
+}
+
+.mw_wp_form_input .wrp_h3style{
+  display:none;
+}
+.mw_wp_form_confirm{
+  display:block;
+}

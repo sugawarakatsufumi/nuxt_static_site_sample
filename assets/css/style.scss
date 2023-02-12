@@ -1,0 +1,8 @@
+@import '_reset.scss';
+@import '_drawer.min.scss';
+@media screen and (min-width:1024px){
+	@import '_common.scss';
+}
+@media screen and (max-width:1023px){
+	@import '_mb-common.scss';
+}

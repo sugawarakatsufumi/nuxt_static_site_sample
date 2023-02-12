@@ -1,0 +1,129 @@
+@charset "UTF-8";
+.head-products .background{
+	background-image:url(../img/products/bg-eyecatch.jpg);
+}
+.products-list{
+	width: 960px;
+	margin: 70px auto 80px;
+}
+.products-list-item{
+	display:flex;
+	display:-webkit-flex;
+	justify-content:center;
+	-webkit-justify-content:center;
+	align-items:flex-end;
+	-webkit-align-items:flex-end;
+	margin-bottom:90px;
+	flex-wrap:wrap;
+	-webkit-flex-wrap:wrap;
+}
+.products-list-item:nth-of-type(even){
+	flex-direction: row-reverse;
+	-webkit-flex-direction: row-reverse;
+}
+.products-list-item__head {
+	width:100%;
+    font-size: 3.6rem;
+	margin-bottom: 36px;
+	text-align:center;
+}
+.products-list-item__cont{
+	width:580px;
+}
+.products-list-item__desc{
+	font-size: 1.8rem;
+	line-height: 2;
+	margin-right:20px;
+}
+.products-list-item:nth-of-type(even) .products-list-item__desc{
+	margin-left:20px;
+}
+.products-list-item__pic{
+	border-radius:100%;
+}
+.products-list-item__btn{
+	color:#fff;
+	border-radius:26px;
+	display:block;
+	height:65px;
+	font-size:2.2rem;
+	margin:30px 25px 0;
+	text-decoration:none;
+	display:flex;
+	display:-webkit-flex;
+	justify-content:center;
+	-webkit-justify-content:center;
+	align-items:center;
+	-webkit-align-items:center;
+	background: -webkit-linear-gradient(left, rgba(241,151,74,1) 0%,rgba(234,103,51,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, rgba(241,151,74,1) 0%,rgba(234,103,51,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+.enjoy-home{
+	text-align:center;
+	margin-bottom:140px;
+}
+.special-cont{
+	text-align:center;
+	margin-bottom:140px;
+}
+.special-cont__head{
+	width:100%;
+    font-size: 3.6rem;
+	margin-bottom: 60px;
+	text-align:center;
+}
+.special-cont__item{
+	display:block;
+	margin-bottom:70px;
+}
+.shop-info{
+	width:960px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 40px;
+	margin-bottom: 80px;
+}
+.shop-info__head{
+	width:100%;
+    font-size: 3.6rem;
+	margin-bottom: 60px;
+	text-align:center;
+}
+.shop-info__desc {
+    font-size: 1.8rem;
+	line-height:2;
+	text-align:center;
+}
+.shop-info__pic{
+	margin-top:30px;
+	display:flex;
+	display:-webkit-flex;
+	justify-content:space-between;
+	-webkit-justify-content:space-between;
+	
+}
+.shop-add{
+	margin-top:40px;
+}
+.shop-add__head{
+	font-size:2.2rem;
+	margin-bottom:20px;
+}
+.shop-add__desc{
+	line-height:2;
+	font-size:1.8rem;
+}
+.head-txt-strong{
+	position: relative;
+}
+.head-txt-strong:after{
+	width:100%;
+	content:"";
+	position: absolute;
+	bottom:-8px;
+	left:0;
+	border-bottom:solid 1px #eb6834;
+}
+.txt-strong-color{
+	color:#ff0000;
+}
